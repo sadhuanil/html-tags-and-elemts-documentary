@@ -1,0 +1,89 @@
+HTML DOCUMENTATION
+
+HTML
+Html stands for hypertext markup language was created by Tim Berners-Lee in 1991 as a standard for creating web pages. 
+- HTML is like the skeleton of a website.  
+- Html gives structure to web page - It contains text known as tags - Tags are understandable by browser. 
+ 
+What is a html document? 
+- An HTML document is a text document saved with the '.html' or '.htm' extension, 
+containing text and specific tags enclosed in '< >'. 
+ 
+What is tag? 
+- Html instructions known as tags - An HTML tag acts as a container for content or other HTML tags.  - Tags are words enclosed within < and > angle brackets. 
+ 
+Type of tags in html 
+1. Open tags or container tags - It has a range  - E.g. <p></p> 
+2. Close tags or empty tags(self-closing tags) - It does not have a range. - E.g. <br/>, </hr> 
+ 
+What is an html element?
+ - An HTML element is a complete set that consists of a start tag (or opening tag), content, 
+and an end tag (or closing tag). 
+- HTML Element = Start Tag + Content + End Tag
+ - E.g. - <p>Content</p>
+
+Anatomy of an HTML element
+
+Elements can also have attributes that look like the following:
+
+
+Here, class is the attribute name and editor-note is the attribute value.
+
+What is an attribute in html?
+ - Attributes defines the properties or characteristics of a html element. - Attributes modify the behavior, functionality, or appearance of an element by providing additional information.  
+- They allow you to customize the behavior of HTML elements. 
+- E.g. - <a href="https://www.example.com">Go to Example</a>
+
+Nesting elements
+You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <strong> element, which means that the word is to be strongly emphasized:
+<p>My cat is <strong>very</strong> grumpy. </p>
+
+Void elements
+Some elements have no content and are called void elements. Take the <img> element.
+
+<img src="images/firefox-icon.png" alt="My test image" />
+
+This contains two attributes, but there is no closing </img> tag and no inner content. This is because an image element does not wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.
+
+Basic structure of html  
+ 
+<!doctype html>
+<html>
+<head>
+<titile></title>
+</head>
+<body>
+<h1>hello html</h1>
+</body>
+</html>
+
+
+<!doctype html5> - It defines that this document is the html5 document 
+<html> - Root element for html document 
+<head> - It contains meta information about the web page 
+<title> - Element specifies a title for the HTML page (which is shown in the browser's title bar or 
+in the page's tab) 
+<body> - Element defines the document's body, and is a container for all the visible contents, such 
+as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+Heading tags 
+- Its defines heading  
+- Displayed in larger and bolder font 
+- There are 6 level of heading tags 
+1. <h1></h1> 
+2. <h2></h2> 
+3. <h3></h3> 
+4. <h4></h4> 
+5. <h5></h5> 
+6. <h6></h6>
+
+Text formatting tags 
+1. Paragraph tags - Used to create paragraph 
+- Syntax  
+<p>this is paragraph</p>
+2. Used to insert black line in the document 
+- Syntax <br>
+
+3. Horizontal ruler - Used to draw horizontal line across the web page 
+- Syntax <hr>
+
